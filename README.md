@@ -1,2 +1,3 @@
-# cpe6302-fund2
-repository for cpe6302-fund2
+# Code Repository for Programming Fundamentals II
+
+## lect01: Introduction to Java
