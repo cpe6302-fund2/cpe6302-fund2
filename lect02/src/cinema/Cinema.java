@@ -12,5 +12,6 @@ public class Cinema {
   public static void main(String[] args) {
     showSeats( 7, 8);
     soldTickets();  
+    
   }
 }
