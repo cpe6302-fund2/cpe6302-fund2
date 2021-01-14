@@ -29,7 +29,7 @@ class Tamjung {
   }
 
   void quiz() {
-    // ใช้ switch statement
+    
 
   }
 
