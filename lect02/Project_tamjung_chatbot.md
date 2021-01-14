@@ -1,3 +1,5 @@
+// https://github.com/kulwadeelab/cpe6302-fund2/tree/main/lect02
+
 # Project: ถามจังแชทบอท
 
 ## ผลลัพธ์การเรียนรู้
