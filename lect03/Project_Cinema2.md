@@ -24,19 +24,20 @@
 เมื่อโปรแกรมเริ่มต้นทำงาน ระบบจะให้ผู้ใช้ใส่จำนวนแถวและจำนวนที่นั่งในแต่ละแถว ดังตัวอย่าง
 
 Enter the number of rows:
-
 &gt; 8
 
 Enter the number of seats in each row:
-
 &gt; 7
 
 จากนั้น ระบบจะแสดงเมนูให้ผู้ใช้เลือกฟังก์ชันการทำงานต่าง ๆ  ดังนี้
 
-1. Show the seats
-2. Buy a ticket
-3. Statistics
-"0." Exit
+1.Show the seats
+
+2.Buy a ticket
+
+3.Statistics
+
+0.Exit
 
 &gt; 1
 
