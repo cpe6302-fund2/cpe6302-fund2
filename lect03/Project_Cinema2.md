@@ -25,11 +25,11 @@
 
 Enter the number of rows:
 
-> 8
+&gt; 8
 
 Enter the number of seats in each row:
 
-> 7
+&gt; 7
 
 จากนั้น ระบบจะแสดงเมนูให้ผู้ใช้เลือกฟังก์ชันการทำงานต่าง ๆ  ดังนี้
 
@@ -37,7 +37,7 @@ Enter the number of seats in each row:
 2. Buy a ticket
 3. Statistics
 0. Exit
-> 1
+&gt; 1
 
 เมื่อผู้ใช้เลือกเมนู 1 ระบบจะแสดงแผนผังสถานะที่นั่งของโรงหนัง ณ ปัจจุบัน โดยใช้ตัวอักษร S แทนที่นั่งว่าง และตัวอักษร B แทนที่นั่งที่ถูกซื้อแล้ว
 
@@ -63,17 +63,17 @@ B: หมายถึง ซื้อแล้ว
 2. Buy a ticket
 3. Statistics
 0. Exit
-> 2
+&gt; 2
 
 เมื่อผู้ใช้เลือกเมนู 2 เพื่อซื้อตั๋วที่นั่ง ระบบจะให้ผู้ใช้ใส่เลขที่แถว และเลขที่ที่นั่ง ที่ผู้ใช้ต้องการซื้อ
 
 Enter a row number:
 
-> 1
+&gt; 1
 
 Enter a seat number in that row:
 
-> 1
+&gt; 1
 
 Ticket price: $10
 
@@ -103,11 +103,11 @@ That ticket has already been purchased!
 
 Enter a row number:
 
-> 1
+&gt; 1
 
 Enter a seat number in that row:
 
-> 1
+&gt; 1
 
 That ticket has already been purchased!
 
@@ -119,21 +119,21 @@ Wrong input!
 
 Enter a row number:
 
-> 10
+&gt; 10
 
 Enter a seat number in that row:
 
-> 20
+&gt; 20
 
 Wrong input!
 
 Enter a row number:
 
-> 4
+&gt; 4
 
 Enter a seat number in that row:
 
-> 4
+&gt; 4
 
 Ticket price: $10
 
@@ -143,7 +143,7 @@ Ticket price: $10
 2. Buy a ticket
 3. Statistics
 0. Exit
-> 3
+&gt; 3
 
 เมื่อผู้ใช้เลือกเมนู 3 ระบบจะแสดงสถิติการขายตั๋วดังตัวอย่าง
 
