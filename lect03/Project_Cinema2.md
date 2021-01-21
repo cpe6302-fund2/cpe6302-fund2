@@ -88,7 +88,7 @@ Enter a seat number in that row:
 
 &gt; 1
 
-Ticket price: $10
+Ticket price: 100 BAHT
 
 #### TICKET IS AVAILABLE
 
@@ -155,7 +155,7 @@ Enter a seat number in that row:
 
 &gt; 4
 
-Ticket price: $10
+Ticket price: 100 BAHT
 
 เมื่อการซื้อตั๋วเสร็จสิ้นระบบจะกลับไปแสดงเมนูหลัก
 
@@ -177,9 +177,9 @@ Number of purchased tickets: 2
 
 Percentage: 3.57%
 
-Current income: $20
+Current income: 200 BAHT
 
-Total income: $560
+Total income: 5600 BAHT
 
 
 ### END PROGRAM
