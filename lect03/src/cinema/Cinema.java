@@ -160,6 +160,7 @@ public class Cinema {
         System.out.printf("\nPercentage: %.2f%%", percentPurchased());
         System.out.printf("\nCurrent income: %d BAHT", currentIncome);
         System.out.printf("\nTotal income: %d BAHT", totIncome);
+        System.out.println();
     }
         
     static void showMenu() {
