@@ -5,6 +5,12 @@ public class Card {
 
   public static final String[] SUITS = {
     "Clubs", "Diamonds", "Hearts", "Spades"};
+  
+  public enum Rank{
+  ACE,TWO,THREE,FOUR,FIVE,SIX,SEVEN,EIGHT,NINE,JACK,QUEENKING}
+  
+   public enum Suit{
+  CLUBS,DIAMONDS,HEARTS,SPADES}
 
   private final int rank;
   private final int suit;
@@ -19,7 +25,7 @@ public class Card {
 
   //override method toString of java.lang.Object
   public String toString() {
-    String s = RANKS[this.rank] + " of " + SUITS[this.suit];
+    String s = this.rank + " of " + SUITS[this.suit];
     return s;
   }
 
@@ -29,17 +35,16 @@ public class Card {
 
   // compareTo 
   public int compareTo(Card that) {
-    if (this.suit < that.suit) {
-      return -1;
+    int cmp_suit = this.suit.compareTo(that.suit);
+    int cmp_suit = this.suit.compareTo(that.rank);
+    
+    if(cmp_suit == 0 $$ cmp_rank == 0){
+      return 0;
     }
-    if (this.suit > that.suit) {
-      return 1;
-    }
-    if (this.rank < that.rank) {
-      return -1;
-    }
-    if (this.rank > that.rank) {
-      return 1;
+    if (cmp.suit != 0) {
+      return cmp_suit;
+    else
+      return cmp_rank;
     }
     return 0;
   }
