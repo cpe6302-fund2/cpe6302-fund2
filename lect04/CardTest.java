@@ -44,9 +44,10 @@ public class CardTest {
 
   public static void main(String[] args) {
     Card[] cards = new Card[52];
+    
     int index = 0;
-    for (int suit = 0; suit <= 3; suit++) {
-      for (int rank = 1; rank <= 13; rank++) {
+    for (Card.Suit suit : Card.Suit.values()) {
+      for (Card2.Rank rank : Card2.Rank.values()) {
         cards[index] = new Card(rank, suit);
         index++;
       }
